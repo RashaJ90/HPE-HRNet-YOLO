@@ -1,0 +1,37 @@
+name: Hpe
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - kneed 
+  - pytorch
+  - pytorch-lightning
+  - torchvision
+  - torchinfo
+  - scikit-image
+  - tensorboard
+  - matplotlib
+  - seaborn
+  - plotly
+  - graphviz
+  - tabulate
+  - pydot
+  - distinctipy
+  - gdown
+  - pip
+  - ffmpeg
+  - pip:
+    - opencv-python
+    - ultralytics
